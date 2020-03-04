@@ -1,0 +1,102 @@
+@font-face {
+  src: url(Lovely.ttf);
+  font-family: "LovelyHome";
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Trade Winds", cursive;
+  font-size: 2.5em;
+  color: #045500;
+  text-shadow: 2px 2px rgba(189, 62, 189, 0.7);
+  z-index: 99;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+div.color.selectedcolorbox {
+  display: flex;
+}
+section {
+  display: flex;
+  margin-top: -20px;
+  max-width: 60%;
+  height: auto;
+  cursor: pointer;
+}
+
+#selectedcolor {
+  display: flex;
+}
+
+.colors {
+  display: flex;
+}
+
+button {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  width: 80px;
+  border: 1px solid #333;
+  border-radius: 10%;
+  font-weight: 600;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #045500;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: #aeee47;
+}
+
+.color {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1.7px solid #333;
+  border-radius: 5%;
+  width: 110px;
+  height: 40px;
+  margin: 0.3em;
+  cursor: crosshair;
+}
+
+.color1 {
+  background-color: #045500;
+}
+.color2 {
+  background-color: #ff55db;
+}
+.color3 {
+  background-color: #fe6594;
+}
+.color4 {
+  background-color: #c967a5;
+}
+.color5 {
+  background-color: #aeee47;
+}
+.color6 {
+  background-color: #fef465;
+}
+.color7 {
+  background-color: #ffffff;
+}
