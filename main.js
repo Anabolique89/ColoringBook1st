@@ -48,7 +48,7 @@ function clearColor() {
 function fillColor(e) {
   e.target.style.fill = selectedColor;
 }
-/*
+/* make a rainbow themed background - reference
 function rainbow() {
   console.log(rainbow);
   document.querySelectorAll("#fills path, polygon, polyline").forEach(path => {

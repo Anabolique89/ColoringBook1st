@@ -50,7 +50,8 @@ section {
 button {
   margin-top: 2px;
   margin-bottom: 5px;
-  width: 80px;
+  width: 70px;
+  height: 50px;
   border: 1px solid #333;
   border-radius: 10%;
   font-weight: 600;

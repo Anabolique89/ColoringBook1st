@@ -1,0 +1,35 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Trade Winds", cursive;
+  font-size: 1.5em;
+  color: #045500;
+  text-shadow: 2px 2px rgba(189, 62, 189, 0.7);
+  z-index: 99;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.container {
+  width: 500px;
+  margin-bottom: -40px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  font-family: "Trade Winds", cursive;
+  font-size: 1em;
+  color: #045500;
+  text-shadow: 2px 2px rgba(189, 62, 189, 0.7);
+  z-index: 99;
+}
+.color {
+  padding: 10px;
+  display: flex;
+  flex-direction: flex-end;
+  border: 1.7px solid #333;
+  border-radius: 5%;
+  width: 110px;
+  height: 40px;
+  margin: 0.3em;
+  cursor: crosshair;
+}
