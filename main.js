@@ -27,13 +27,11 @@ function startManipulatingTheSvg() {
 }
 
 function clearColor() {
-  document
-    .querySelectorAll(".PinkFlower", ".GreenLeaf", "path")
-    .forEach(path => {
-      path.style.fill = "transparent";
+  document.querySelectorAll("#fills path").forEach(path => {
+    path.style.fill = "transparent";
 
-      console.log(clearColor);
-    });
+    console.log(clearColor);
+  });
   document.querySelectorAll("#outlines path").forEach(path => {
     path.style.stroke = "";
     path.style.fill = "";
